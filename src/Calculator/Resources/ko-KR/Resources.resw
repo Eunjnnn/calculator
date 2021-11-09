@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -3027,6 +3027,11 @@
     <value>Microsoft 서비스 계약</value>
     <comment>Displayed on a link to the Microsoft Services Agreement in the about this app information</comment>
   </data>
+    <!-- 수정 내용 -->
+    <data name="AboutMyGithub.Text" xml:space="preserve">
+    <value>OSS 과제 나의 github</value>
+    <comment>Displayed on a link to the Github</comment>
+  </data>
   <data name="UnitAbbreviation_Pyeong" xml:space="preserve">
     <value>평</value>
     <comment>An abbreviation for a measurement unit of area.</comment>
@@ -4153,6 +4158,11 @@
   <data name="SystemThemeRadioButton.Content" xml:space="preserve">
     <value>시스템 설정 사용</value>
     <comment>Lable for the app theme option to use system setting</comment>
+  </data>
+    <!-- 수정 내용 -->
+   <data name="OtherColorThemeRadioButton.Content" xml:space="preserve">
+    <value>다른색깔</value>
+    <comment>Lable for other color  theme option</comment>
   </data>
   <data name="TitleBarBackButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>뒤로</value>

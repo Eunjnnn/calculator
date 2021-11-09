@@ -46,7 +46,7 @@
                     <Thickness x:Key="ControlBorderThemeThickness">0</Thickness>
                     <Thickness x:Key="HighContrastThicknessTop">0,0,0,0</Thickness>
                     <x:Double x:Key="HighContrastStrokeThickness">0</x:Double>
-                    <Color x:Key="AltHighColor">#FF000000</Color>
+                    <Color x:Key="AltHighColor">#F7BE81</Color>
                     <Color x:Key="ChromeMediumLowColor">#FF2B2B2B</Color>
                     <Color x:Key="OperatorPanelScrollButtonBackgroundColor">#FF858585</Color>
                     <SolidColorBrush x:Key="SystemControlBackgroundAltHighBrush" Color="{StaticResource AltHighColor}"/>
@@ -120,7 +120,7 @@
                     <StaticResource x:Key="CalcButtonTextFillColorHoverBrush" ResourceKey="TextFillColorPrimaryBrush"/>
                     <StaticResource x:Key="CalcButtonTextFillColorPressedBrush" ResourceKey="TextFillColorSecondaryBrush"/>
                     <StaticResource x:Key="CalcButtonTextFillColorDisabledBrush" ResourceKey="TextFillColorDisabledBrush"/>
-                    <Color x:Key="CalcButtonBaseFillColor">#FFFFFF</Color>
+                    <Color x:Key="CalcButtonBaseFillColor">#F99255</Color>
                     <SolidColorBrush x:Key="CalcButtonFillColorDefaultBrush"
                                      Opacity="0.125"
                                      Color="{StaticResource CalcButtonBaseFillColor}"/>
@@ -146,7 +146,7 @@
                                      Opacity="0.0359"
                                      Color="{StaticResource CalcButtonBaseFillColor}"/>
 
-                    <Color x:Key="BackgroundSmokeFillColor">#000000</Color>
+                    <Color x:Key="BackgroundSmokeFillColor">#DC664D</Color>
                     <SolidColorBrush x:Key="BackgroundSmokeFillColorBrush"
                                      Opacity="0.42"
                                      Color="{StaticResource BackgroundSmokeFillColor}"/>

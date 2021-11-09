@@ -169,6 +169,9 @@
                             <RadioButton x:Name="SystemThemeRadioButton"
                                          x:Uid="SystemThemeRadioButton"
                                          Tag="Default"/>
+                            <RadioButton x:Name="OtherColorThemeRadioButton"
+                                         x:Uid="OtherColorThemeRadioButton"
+                                         Tag="Default"/>
                         </muxc:RadioButtons>
                     </muxc:Expander.Content>
                 </muxc:Expander>
@@ -224,6 +227,18 @@
                             <TextBlock x:Uid="AboutControlPrivacyStatement"
                                        FontSize="{ThemeResource BodyFontSize}"
                                        TextWrapping="Wrap"/>
+                        </HyperlinkButton>
+
+                        <!-- 수정내용 -->
+                        <HyperlinkButton x:Name="AboutMyGithub"
+                                         Margin="0,16,0,0"
+                                         Padding="0"
+                                         NavigateUri="https://github.com/Eunjnnn"
+                                         ToolTipService.ToolTip="https://github.com/Eunjnnn"
+                                         Background="#D7DF01">
+                            <TextBlock x:Uid="AboutMyGithub"
+                                       FontSize="{ThemeResource BodyFontSize}"
+                                       TextWrapping="Wrap" />
                         </HyperlinkButton>
 
                         <Button x:Name="FeedbackButton"

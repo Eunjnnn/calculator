@@ -41,7 +41,7 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="controls:OverflowTextBlock">
                         <Grid x:Name="TokenContainer"
-                              Background="{TemplateBinding Background}"
+                               Background="{ThemeResource BackgroundSmokeFillColorBrush}"
                               FlowDirection="LeftToRight">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="12"/>
